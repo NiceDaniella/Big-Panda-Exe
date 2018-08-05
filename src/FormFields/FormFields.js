@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import CommentList from "./CommentList";
+import CommentList from "../CommentList/CommentList";
 
 export default class FormFields extends Component {
 	constructor() {

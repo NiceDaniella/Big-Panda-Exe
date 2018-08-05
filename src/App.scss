@@ -1,5 +1,5 @@
-@import './FormFields.scss';
-@import './CommentLst.scss';
+@import 'FormFields/FormFields';
+@import 'CommentList/CommentLst';
 .App {
 	padding: 50px 150px 0 150px;
 }

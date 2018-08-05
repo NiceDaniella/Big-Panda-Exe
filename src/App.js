@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import FormFields from "./FormFields";
+import FormFields from "./FormFields/FormFields";
 
 class App extends Component {
   render() {
