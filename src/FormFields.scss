@@ -1,0 +1,33 @@
+.main-form-field-wrapper{
+	.form-wrapper{
+		display: flex;
+		flex-direction: column;
+		background: #e7e7e7;
+		padding:10px;
+
+		input{
+			padding: 15px;
+			margin: 10px;
+		}
+		textarea{
+			margin: 10px;
+			padding: 15px;
+			resize: none;
+			outline: none;
+			border: 1px solid  #cfcfd9;
+		}
+		button{
+			background: #47bff9;
+			border: 1px solid transparent;
+			border-radius: 4px;
+			padding: 10px;
+			color: white;
+			text-transform: uppercase;
+			width: 100px;
+			align-self: flex-end;
+			margin: 10px;
+			cursor: pointer;
+		}
+	}
+
+}

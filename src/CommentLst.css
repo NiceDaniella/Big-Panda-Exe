@@ -1,0 +1,44 @@
+.main-comment-list-wrapper .comment-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff; }
+  .main-comment-list-wrapper .comment-wrapper input {
+    padding: 10px 15px; }
+  .main-comment-list-wrapper .comment-wrapper .comment-list {
+    list-style: none;
+    padding: 0; }
+    .main-comment-list-wrapper .comment-wrapper .comment-list li {
+      display: flex;
+      position: relative; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info {
+        position: absolute;
+        left: 60px;
+        background: #e7e7e7;
+        box-shadow: 0 10px 14px -6px #777;
+        padding: 16px;
+        border-radius: 4px;
+        z-index: 1000;
+        display: flex; }
+        .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info .more-info-content {
+          padding-right: 5px; }
+          .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info .more-info-content p {
+            margin: 0;
+            font-size: 12px;
+            color: #8a8a8a; }
+        .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info svg {
+          cursor: pointer; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li img {
+        margin-right: 10px;
+        border-radius: 4px;
+        cursor: pointer; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .email {
+        margin-bottom: 0;
+        color: #565656;
+        font-size: 14px;
+        font-weight: 100; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .content {
+        margin-top: 5px;
+        color: #8a8a8a;
+        font-size: 14px;
+        font-weight: 100; }

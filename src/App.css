@@ -1,0 +1,73 @@
+.main-form-field-wrapper .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #e7e7e7;
+  padding: 10px; }
+  .main-form-field-wrapper .form-wrapper input {
+    padding: 15px;
+    margin: 10px; }
+  .main-form-field-wrapper .form-wrapper textarea {
+    margin: 10px;
+    padding: 15px;
+    resize: none;
+    outline: none;
+    border: 1px solid  #cfcfd9; }
+  .main-form-field-wrapper .form-wrapper button {
+    background: #47bff9;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    width: 100px;
+    align-self: flex-end;
+    margin: 10px;
+    cursor: pointer; }
+
+.main-comment-list-wrapper .comment-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff; }
+  .main-comment-list-wrapper .comment-wrapper input {
+    padding: 10px 15px; }
+  .main-comment-list-wrapper .comment-wrapper .comment-list {
+    list-style: none;
+    padding: 0; }
+    .main-comment-list-wrapper .comment-wrapper .comment-list li {
+      display: flex;
+      position: relative; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info {
+        position: absolute;
+        left: 60px;
+        background: #e7e7e7;
+        box-shadow: 0 10px 14px -6px #777;
+        padding: 16px;
+        border-radius: 4px;
+        z-index: 1000;
+        display: flex; }
+        .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info .more-info-content {
+          padding-right: 5px; }
+          .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info .more-info-content p {
+            margin: 0;
+            font-size: 12px;
+            color: #8a8a8a; }
+        .main-comment-list-wrapper .comment-wrapper .comment-list li .more-info svg {
+          cursor: pointer; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li img {
+        margin-right: 10px;
+        border-radius: 4px;
+        cursor: pointer; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .email {
+        margin-bottom: 0;
+        color: #565656;
+        font-size: 14px;
+        font-weight: 100; }
+      .main-comment-list-wrapper .comment-wrapper .comment-list li .content {
+        margin-top: 5px;
+        color: #8a8a8a;
+        font-size: 14px;
+        font-weight: 100; }
+
+.App {
+  padding: 50px 150px 0 150px; }
