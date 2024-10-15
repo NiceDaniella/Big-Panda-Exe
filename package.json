@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.21.1",
     "font-awesome": "^4.7.0",
     "moment": "^2.22.2",
     "mongodb": "^3.1.1",
@@ -14,7 +14,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-gravatar": "^2.6.3",
-    "react-scripts": "1.1.4"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
